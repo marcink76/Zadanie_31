@@ -6,11 +6,10 @@ public class Main {
 
         tvSet.statusInfo(tvSet);
 
-        tvSet.turnOn();
-
+        tvSet.setPowerOn(true);
         tvSet.statusInfo(tvSet);
-        tvSet.turnOff();
 
+        tvSet.setPowerOn(false);
         tvSet.statusInfo(tvSet);
 
 

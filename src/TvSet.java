@@ -15,12 +15,6 @@ public class TvSet {
     public void setPowerOn(boolean powerOn) {
         this.powerOn = powerOn;
     }
-    public void turnOn(){
-        setPowerOn(true);
-    }
-    public void turnOff(){
-        setPowerOn(false);
-    }
 
     public void statusInfo(TvSet tvSet){
         if (tvSet.isPowerOn()){
